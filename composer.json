@@ -1,0 +1,45 @@
+{
+  "name": "ucraft-com/laravel-bulk-process",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Poghos",
+      "email": "poghos@ucraft.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Uc\\BulkProcessManager\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-grpc": "*",
+    "illuminate/contracts": "^9.0",
+    "illuminate/support": "^9.0",
+    "illuminate/routing": "^9.0",
+    "illuminate/config": "^9.0",
+    "ucraft-com/bulk-process-sdk": "dev-main"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Uc\\BulkProcessManager\\ServiceProvider"
+      ],
+      "aliases": {
+        "Debugbar": "Uc\\BulkProcessManager\\Facades\\BulkProcessManager"
+      }
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/home/poghos/Projects/bulk-actions-sdk"
+    }
+  ]
+}
