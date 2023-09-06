@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ae64391cf3307fd421f4cb8c5bd2616",
+    "content-hash": "59f866e5640492f229e0449e6c90621c",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2925,11 +2925,17 @@
         },
         {
             "name": "ucraft-com/bulk-process-sdk",
-            "version": "dev-main",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ucraft-com/bulk-process-sdk.git",
+                "reference": "e823073bca35086af63bb190fe7afb1aeca18996"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/poghos/Projects/bulk-actions-sdk",
-                "reference": "3e520413f6282fdb8478e3c544d945197d626574"
+                "type": "zip",
+                "url": "https://api.github.com/repos/ucraft-com/bulk-process-sdk/zipball/e823073bca35086af63bb190fe7afb1aeca18996",
+                "reference": "e823073bca35086af63bb190fe7afb1aeca18996",
+                "shasum": ""
             },
             "require": {
                 "ext-grpc": "*",
@@ -2943,6 +2949,7 @@
                 "phpunit/phpunit": "^10.4@dev",
                 "symfony/var-dumper": "6.4.x-dev"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2962,9 +2969,11 @@
                     "email": "poghos@ucraft.com"
                 }
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/ucraft-com/bulk-process-sdk/tree/master",
+                "issues": "https://github.com/ucraft-com/bulk-process-sdk/issues"
+            },
+            "time": "2023-09-06T13:25:08+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -3050,7 +3059,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "ext-grpc": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
