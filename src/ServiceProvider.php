@@ -38,7 +38,13 @@ class ServiceProvider extends IlluminateServiceProvider
                 new BulkProcessClient(
                     $configRepository->get('bulk-process-manager.orchestrator_grpc_endpoint'),
                     [
-                        'credentials' => $configRepository->get('bulk-process-manager.credentials'),
+                        'credentials'     => $configRepository->get('bulk-process-manager.credentials'),
+                        'update_metadata' => function (array $metadata) use ($configRepository) {
+                            $token = $configRepository->get('bulk-process-manager.authorization_token');
+                            $metadata['Authorization'] = ["Bearer $token"];
+
+                            return $metadata;
+                        }
                     ],
                 )
             );
