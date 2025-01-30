@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d811528fd6b6e90114721de1779079e",
+    "content-hash": "953557d536d8b838ed7f3a52adff86fe",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2925,16 +2925,16 @@
         },
         {
             "name": "ucraft-com/bulk-process-sdk",
-            "version": "2.4",
+            "version": "2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ucraft-com/bulk-process-sdk.git",
-                "reference": "db1855a4d0e96865d0416d506b802ed9f24b6090"
+                "reference": "39939d0fb9f08b7094016742bc31869406d5184e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ucraft-com/bulk-process-sdk/zipball/db1855a4d0e96865d0416d506b802ed9f24b6090",
-                "reference": "db1855a4d0e96865d0416d506b802ed9f24b6090",
+                "url": "https://api.github.com/repos/ucraft-com/bulk-process-sdk/zipball/39939d0fb9f08b7094016742bc31869406d5184e",
+                "reference": "39939d0fb9f08b7094016742bc31869406d5184e",
                 "shasum": ""
             },
             "require": {
@@ -2974,10 +2974,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/ucraft-com/bulk-process-sdk/tree/2.4",
+                "source": "https://github.com/ucraft-com/bulk-process-sdk/tree/2.5",
                 "issues": "https://github.com/ucraft-com/bulk-process-sdk/issues"
             },
-            "time": "2025-01-29T15:37:29+00:00"
+            "time": "2025-01-30T07:29:28+00:00"
         },
         {
             "name": "voku/portable-ascii",
