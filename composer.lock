@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f8df0bb66d37595038f449950ad4290",
+    "content-hash": "953557d536d8b838ed7f3a52adff86fe",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -2925,16 +2925,16 @@
         },
         {
             "name": "ucraft-com/bulk-process-sdk",
-            "version": "1.0",
+            "version": "2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ucraft-com/bulk-process-sdk.git",
-                "reference": "a3ee6cced4a36b648c990b806bb3c84a55381c46"
+                "reference": "39939d0fb9f08b7094016742bc31869406d5184e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ucraft-com/bulk-process-sdk/zipball/a3ee6cced4a36b648c990b806bb3c84a55381c46",
-                "reference": "a3ee6cced4a36b648c990b806bb3c84a55381c46",
+                "url": "https://api.github.com/repos/ucraft-com/bulk-process-sdk/zipball/39939d0fb9f08b7094016742bc31869406d5184e",
+                "reference": "39939d0fb9f08b7094016742bc31869406d5184e",
                 "shasum": ""
             },
             "require": {
@@ -2974,10 +2974,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/ucraft-com/bulk-process-sdk/tree/1.0",
+                "source": "https://github.com/ucraft-com/bulk-process-sdk/tree/2.5",
                 "issues": "https://github.com/ucraft-com/bulk-process-sdk/issues"
             },
-            "time": "2023-09-26T12:18:17+00:00"
+            "time": "2025-01-30T07:29:28+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -3057,13 +3057,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1",
         "ext-grpc": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
