@@ -11,7 +11,7 @@ use Uc\BulkProcess\BulkProcessExecutor\Enums\Entity;
 use Uc\BulkProcess\BulkProcessExecutor\Enums\Operation;
 
 /**
- * @method static BulkProcess createBulkProcess(int $projectId, array $idsToProcess, Entity $entity, Operation $operation, string $remoteHost)
+ * @method static BulkProcess createBulkProcess(int $projectId, array $idsToProcess, Entity $entity, Operation $operation, string $remoteHost, string $workspaceName)
  * @method static BulkProcess getBulkProcess(string $processId)
  * @method static BulkProcess[] getBulkProcessByIds(array $processIds)
  *
